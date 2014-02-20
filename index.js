@@ -3,11 +3,11 @@
  * dependencies.
  */
 
-var emitter = require('emitter')
-  , mouse = require('mouse')
-  , events = require('events')
-  , translate = require('translate')
-  , classes = require('classes');
+var emitter = require('component-emitter')
+  , mouse = require('ui-component-mouse')
+  , events = require('component-events')
+  , translate = require('component-translate')
+  , classes = require('component-classes');
 
 /**
  * export `Draggable`.
